@@ -4,7 +4,7 @@ function currencyConventer(){
 	var dolQ = prompt("Please, enter the amount of cash in dollars", 100);
 
     if (isNaN(eurQ) || isNaN(dolQ)){
-    	alert("Hey, buddy, take another chance. But this time you need to enter numbers)")}
+    	alert("Hey, buddy, take another chance. But this time you need to enter the numbers)")}
     	else{
     		theResult();
     	}
