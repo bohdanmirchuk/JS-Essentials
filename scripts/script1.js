@@ -2,7 +2,7 @@ var name = "Yosyp", time = "tomorrow at 11:00", place = "Geneve", event = prompt
 if (event.match('ing')){
 	console.log(name, "is", event, time, "in", place)}
 	else{
-		alert("try to enter some activity in gerund form")
+		alert("Please try to enter some activity in gerund form")
 	}
 
 
