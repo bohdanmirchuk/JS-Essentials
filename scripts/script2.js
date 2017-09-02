@@ -3,11 +3,17 @@ function currencyConventer(){
 	
 	var dolQ = prompt("Please, enter the amount of cash in dollars", 100);
 
-    if (isNaN(eurQ) || isNaN(dolQ)){
+    if (isNaN(eurQ) || isNaN(dolQ) || eurQ.match(' ') || dolQ.match(' ')){
     	alert("Hey, buddy, take another chance. But this time you need to enter the numbers)")}
     	else{
     		theResult();
     	}
+
+    // if (isFinite(eurQ) && isFinite(dolQ) && (eurQ||dolQ!=' ')){
+    //     theResult();}
+    //     else{
+    //         alert("Hey, buddy, take another chance. But this time you need to enter the numbers)")
+    //     }
     	
     function theResult(){
     	var eurRate = 30.65;
