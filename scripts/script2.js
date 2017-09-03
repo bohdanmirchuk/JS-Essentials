@@ -3,7 +3,7 @@ function currencyConventer(){
 	
 	var dolQ = prompt("Please, enter the amount of cash in dollars", 100);
 
-    if (isNaN(eurQ) || isNaN(dolQ) || eurQ.match(' ') || dolQ.match(' ')){
+    if (isNaN(eurQ) || isNaN(dolQ) || eurQ.match(' ') || dolQ.match(' ') || eurQ.length < 1){
     	alert("Hey, buddy, take another chance. But this time you need to enter the numbers)")}
     	else{
     		theResult();
